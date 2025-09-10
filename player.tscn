@@ -1,7 +1,8 @@
 [gd_scene load_steps=9 format=3 uid="uid://b34ai3pwjq7eo"]
 
-[ext_resource type="Script" uid="uid://chd30exv6r0ph" path="res://player.gd" id="1_onrkg"]
+[ext_resource type="Script" uid="uid://chd30exv6r0ph" path="res://Scripts/Player/player.gd" id="1_onrkg"]
 [ext_resource type="Texture2D" uid="uid://buepq7goo3xde" path="res://Assets/Outline/MiniNobleMan.png" id="2_onrkg"]
+
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i3pqv"]
 atlas = ExtResource("2_onrkg")
