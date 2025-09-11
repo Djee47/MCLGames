@@ -20,7 +20,8 @@ func _physics_process(delta: float) -> void:
 	apply_gravity(delta)
 	handle_movement(delta)
 	print(velocity.y)
-
+	
+#asda
 
 
 
