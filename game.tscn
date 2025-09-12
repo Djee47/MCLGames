@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://clj53mq0w08n3"]
+[gd_scene load_steps=6 format=4 uid="uid://clj53mq0w08n3"]
 
 [ext_resource type="PackedScene" uid="uid://b34ai3pwjq7eo" path="res://player.tscn" id="1_80nbo"]
 [ext_resource type="Texture2D" uid="uid://i0552tgtlojr" path="res://Assets/oak_woods_v1.0/oak_woods_tileset.png" id="2_e2o6t"]
+[ext_resource type="Script" uid="uid://chd30exv6r0ph" path="res://Scripts/Player/player.gd" id="2_feb5d"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e2o6t"]
 texture = ExtResource("2_e2o6t")
@@ -467,7 +468,8 @@ sources/0 = SubResource("TileSetAtlasSource_e2o6t")
 [node name="Game" type="Node2D"]
 position = Vector2(21, -10)
 
-[node name="Player" parent="." groups=["Walls"] instance=ExtResource("1_80nbo")]
+[node name="Player" parent="." instance=ExtResource("1_80nbo")]
+script = ExtResource("2_feb5d")
 
 [node name="Camera2D2" type="Camera2D" parent="Player"]
 position = Vector2(40, -6)
